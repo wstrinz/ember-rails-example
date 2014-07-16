@@ -1,3 +1,2 @@
-App.placesController = Ember.ResourceController.create({
-  resourceType: App.Place
+App.placesController = Ember.Controller.extend({
 });
