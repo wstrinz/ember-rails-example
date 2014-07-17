@@ -1,4 +1,4 @@
-App.Store = DS.Store.extend({
+App.ApplicationStore = DS.Store.extend({
 
 });
 
@@ -7,3 +7,5 @@ App.Store = DS.Store.extend({
 App.ApplicationAdapter = DS.ActiveModelAdapter.extend({
 
 });
+//
+//App.ApplicationAdapter = DS.FixtureAdapter.extend();
