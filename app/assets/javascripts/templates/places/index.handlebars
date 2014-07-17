@@ -1,3 +1,10 @@
-<h1>Places</h1>
-{{places}}
-
+<p>Hey youze, want some places?</p>
+<ul>
+  {{#each}}
+  <li>{{name}}</li>
+  <ul>
+    <li>{{latitude}}</li>
+    <li>{{longitude}}</li>
+  </ul>
+  {{/each}}
+</ul>

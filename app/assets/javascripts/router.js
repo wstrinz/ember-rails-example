@@ -6,7 +6,8 @@ App.Router.map(function() {
 })
 
 App.PlacesRoute = Ember.Route.extend({
+  templateName: 'places/index',
   model: function() {
-    return this.store.find('place', 1);
+    return this.store.find('place');
   }
 });
